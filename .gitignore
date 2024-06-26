@@ -1,0 +1,55 @@
+# Virtual environment
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# pytest cache
+.pytest_cache/
+
+# MacOS specific
+.DS_Store
+
+# Editor specific
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+
+# Environments
+.env
+.venv
+env/
+ENV/
+
+# Taskfile generated
+.task/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
