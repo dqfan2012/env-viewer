@@ -2,6 +2,26 @@
 
 This is a simple Flask application that prints all your environment variables in a web page.
 
+## Project Structure
+
+```
+env_viewer/
+├── env_viewer/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── templates/
+│   │   └── index.html
+├── tests/
+│   ├── __init__.py
+│   ├── test_app.py
+├── .editorconfig
+├── .gitignore
+├── Taskfile.yml
+├── pyproject.toml
+├── README.md
+└── venv/
+```
+
 ## Setup
 
 ### 1. Clone the Repository
@@ -53,23 +73,3 @@ task test
 ```
 
 This will run the tests using pytest.
-
-## Project Structure
-
-```
-env_viewer/
-├── env_viewer/
-│   ├── __init__.py
-│   ├── app.py
-│   ├── templates/
-│   │   └── index.html
-├── tests/
-│   ├── __init__.py
-│   ├── test_app.py
-├── .editorconfig
-├── .gitignore
-├── Taskfile.yml
-├── pyproject.toml
-├── README.md
-└── venv/
-```
